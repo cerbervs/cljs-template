@@ -8,7 +8,7 @@
 	"start": "shadow-cljs server",
 	"clean": "rm -rf target && rm -rf public/js",
 	"clean-win": "rmdir /s /q public/js & rmdir /s /q target",
-	"template": "rm -rf target && rm -rf public/js && rm -rf node_modules"
+	"template": "rm -rf target && rm -rf public/js && rm -rf node_modules && rm -rf .shadow-cljs"
     },
     "dependencies": {
 	"create-react-class": "^15.6.3",
