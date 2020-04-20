@@ -1,14 +1,14 @@
 {
-			"name": "re-frame-template",
-			"version": "1.0.0",
-			"description": "",
+			"name": "personal",
+			"version": "0.0.1",
+			"description": "Personal website for Mark Bailey. Created and maintained by Mark Bailey",
 			"scripts": {
 						"dev": "shadow-cljs watch app",
 						"release": "shadow-cljs release app",
 						"start": "shadow-cljs server",
 						"clean": "rm -rf target && rm -rf public/js",
 						"clean-win": "rmdir /s /q public/js & rmdir /s /q target",
-						"template": "rm -rf target && rm -rf public/js && rm -rf node_modules && rm -rf .shadow-cljs && rm .nrepl-port"
+						"template": "rm -rf target && rm -rf public/js && rm -rf node_modules && rm -rf .shadow-cljs"
 			},
 			"dependencies": {
 						"create-react-class": "^15.6.3",

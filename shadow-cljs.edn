@@ -22,8 +22,11 @@
 
    :modules
    {:main
-    {:init-fn app.core/init
-     :preloads [day8.re-frame-10x.preload]}}
+    {:entries [app.core]
+     :init-fn app.core/init}}
+
+   :devtools
+     {:preloads [day8.re-frame-10x.preload]}
 
    :dev
    {:compiler-options
