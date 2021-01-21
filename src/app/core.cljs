@@ -6,6 +6,9 @@
 
 (defn app
   []
+  (fn []
+    [:div
+     [:h1 "Hello AMber!"]])
   )
 
 (defn ^:dev/after-load start
