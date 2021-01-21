@@ -11,7 +11,7 @@
 						"template": "rm -rf target && rm -rf public/js && rm -rf node_modules && rm -rf .shadow-cljs"
 			},
 			"dependencies": {
-						"create-react-class": "^15.6.3",
+						"create-react-class": "^15.7.0",
 						"highlight.js": "^9.18.1",
 						"react": "^16.5.2",
 						"react-dom": "^16.5.2",
